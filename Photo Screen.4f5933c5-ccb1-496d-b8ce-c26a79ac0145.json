@@ -29,7 +29,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(255, 255, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,9 +52,46 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(255, 255, 255, 1)"
     },
     "children": [
+        {
+            "type": "Switch",
+            "translatedName": "Switch",
+            "reactType": "Switch",
+            "properties": {
+                "value": true,
+                "Visible": true,
+                "tintColor": "rgba(176, 176, 176, 100)",
+                "onTintColor": "rgba(208, 215, 231, 100)",
+                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "offThumbTintColor": "rgba(248, 249, 251, 100)",
+                "Height": 20,
+                "Width": 40,
+                "X": 159,
+                "Y": 537,
+                "RelativeX": 159,
+                "RelativeY": 537,
+                "ResizeMode": "STRETCH",
+                "ParentId": "4f5933c5-ccb1-496d-b8ce-c26a79ac0145",
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "38.266666666666666%",
+                    "top": "80.50974512743628%"
+                },
+                "style": {
+                    "position": "absolute",
+                    "left": "38.266666666666666%",
+                    "top": "80.50974512743628%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "4e488307-3552-4d8a-806a-79c248588a0c",
+            "thunkableVersion": 421,
+            "name": "confirmation"
+        },
         {
             "type": "Label",
             "translatedName": "Label",
